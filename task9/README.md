@@ -1,8 +1,12 @@
-Task 9 – LangGraph Migration (AIEA Lab)
+# Task 9 – LangGraph Migration (AIEA Lab)
+
+
 This project converts the workflow from Task 8, which used LangChain with knowledge base retrieval, into a LangGraph-based system.
-Project Overview
+
+## Project Overview
 The system uses a Prolog-style knowledge base (simpsons_kb.pl) as the main information source for retrieval. The workflow runs through a LangGraph pipeline that retrieves information, checks its relevance, and produces a final answer.
-Main Features
+
+## Main Features
 Uses a Prolog-style knowledge base (simpsons_kb.pl) for RAG retrieval
 
 
@@ -21,7 +25,7 @@ Perform additional retrieval if the relevance is low
 Produce a final true/false answer with an inference trace
 
 
-Installation
+## Installation
 Create a virtual environment and install the required dependencies:
 python -m venv .venv
 source .venv/bin/activate
